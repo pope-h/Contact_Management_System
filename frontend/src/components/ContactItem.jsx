@@ -30,7 +30,7 @@ const ContactItem = ({ contact, editContact, deleteContact }) => {
   };
 
   return (
-    <li>
+    <li className="flex gap-4">
       {isEditing ? (
         <>
           <input

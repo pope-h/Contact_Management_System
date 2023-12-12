@@ -55,14 +55,18 @@ const App = () => {
   };
 
   return (
-    <div className="bg-orange-800">
-      <h1>Contact Management System</h1>
-      <ContactForm addContact={addContact} />
-      <ContactList
-        contacts={contacts}
-        editContact={editContact}
-        deleteContact={deleteContact}
-      />
+    <div className="bg-orange-800 flex flex-col gap-8 items-center justify-center h-screen w-full">
+      <h1 className="py-6 px-6 text-6xl font-bold text-center border-b-4 border-b-black">
+        Contact Management System
+      </h1>
+      <div className="flex items-start gap-28">
+        <ContactForm addContact={addContact} />
+        <ContactList
+          contacts={contacts}
+          editContact={editContact}
+          deleteContact={deleteContact}
+        />
+      </div>
     </div>
   );
 };
