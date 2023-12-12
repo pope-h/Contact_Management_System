@@ -55,7 +55,7 @@ const App = () => {
   };
 
   return (
-    <div>
+    <div className="bg-orange-800">
       <h1>Contact Management System</h1>
       <ContactForm addContact={addContact} />
       <ContactList
