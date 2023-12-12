@@ -54,7 +54,7 @@ const ContactForm = ({ addContact }) => {
           className="border-4 border-black px-2 h-10"
         />
       </div>
-      <button type="submit" className="bg-black text-blue-900 h-10 rounded-md">Add Contact</button>
+      <button type="submit" className="bg-black text-blue-900 h-10 rounded-md hover:bg-white hover:text-black text-lg font-medium">Add Contact</button>
     </form>
   );
   
