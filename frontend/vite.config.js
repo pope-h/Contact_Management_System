@@ -5,4 +5,5 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   base: "/Contact_Management_System/frontend/",
   plugins: [react()],
+  jsx: "react",
 });
